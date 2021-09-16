@@ -1,0 +1,17 @@
+    body {
+        background: url(/resources/imagenes/vJR4Pz.jpg);
+    }
+    
+    h1 {
+        color: white
+    }
+    
+    p {
+        color: white
+    }
+    
+    map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+    }

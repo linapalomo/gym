@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Servicios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f41de9d141.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resources/css/styles.css">
+</head>
+
+<body>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page" style="color:white">Perfil Usuario</li>
+            <li class="breadcrumb-item active" aria-current="page" style="color:white">Registrar Servicios</li>
+        </ol>
+    </nav>
+    <h1><strong>Registrar Nuevos Servicios</strong></h1>
+    <div class="input-group mb-3 ">
+        <button class="btn btn-outline-secondary dropdown-toggle " type="button " data-bs-toggle="dropdown " aria-expanded="false" style="color:white">Gimnasio</button>
+        <ul class="dropdown-menu ">
+            <li><a class="dropdown-item " href="# ">Bodybody</a></li>
+            <li><a class="dropdown-item " href="# ">Retofitness</a></li>
+            <li><a class="dropdown-item " href="# ">Ser fit</a></li>
+            <li>
+                <hr class="dropdown-divider ">
+            </li>
+            <li><a class="dropdown-item " href="# ">Separated link</a></li>
+        </ul>
+        <input type="text " class="form-control " aria-label="Text input with dropdown button ">
+    </div>
+
+    <h3 style="color:white">Gimnasios cerca de tu ubicación</h3>
+    <iframe class="img-thumbnail" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.314415787098!2d13.373755415490375!3d52.50964877981229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851c97891ea21%3A0x4ca1983c254de1aa!2sPotsdamer%20Platz!5e0!3m2!1ses-419!2sde!4v1631815725246!5m2!1ses-419!2sde"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+    <div class="card-group">
+        <div class="card">
+            <img src="resources/imagenes/spinning.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Spinning Intenso</h5>
+                <p class="card-text" style="color:black">Te falta motivación? Dos horas de spinning intenso para activar todos tus músculos al ritmo de la mejor música.</p>
+                <p class="card-text" style="color:black">Descuentos por grupo.</p>
+                <p class="card-text" style="color:black">Descuentos por paquetes de horas.</p>
+                <p class="card-text" style="color:black">Por cada 20 horas recibe 2 horas gratis.</p>
+
+                <a href="#" class="btn btn-primary">Registrarse</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="resources/imagenes/Crossfit.jpeg" class="card-img-top" alt="hombre haciendo crossfit">
+            <div class="card-body">
+                <h5 class="card-title">Crossfit </h5>
+                <p class="card-text" style="color:black">Trabajar tu cuerpo con ayuda de tu propio peso. El mejor instructor de crossfit certificado. La motivación te sobrará. </p>
+                <p class="card-text" style="color:black">Personalizados y grupales.</p>
+                <p class="card-text" style="color:black">Registro debe hacerse por lo menos 24 horas antes.</p>
+                <p class="card-text" style="color:black">Cursos para principiantes, intermedios y avanzados.</p>
+                <p class="card-text" style="color:black">Personalizado para la primera sesión gratis!</p>
+                <p class="card-text" style="color:black">Máximo 10 personas por grupo.</p>
+
+
+
+                <a href="#" class="btn btn-primary">Registrarse</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="resources/imagenes/yoga.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Yoga</h5>
+                <p class="card-text" style="color:black">Necesitas escapar de la rutina? Con nuestro sensei podrás conectar el cuerpo, la respiración y la mente. Serás una nueva persona. </p>
+                <a href="#" class="btn btn-primary">Registrarse</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h1 class="fas fa-solid fa-credit-card fa-2x">Datos de pago</h1><i class="fas fa-solid fa-credit-card fa-2x" style="color:white"></i>
+    <form action=" " method="post ">
+        <section>
+            <div class="col-md-3 ">
+                <label for="titular_pago " class="form-label " style="color:white">Nombre titular </label>
+                <input type="text " class="form-control " id="titular_pago " required>
+            </div>
+            <form class="row g-3">
+                <div class="col-md-4">
+                    <label for="direccion_pago" class="form-label" style="color:white">Dirección</label>
+                    <input type="text" class="form-control" id="direccion_pago" value="" required>
+                </div>
+                <form class="fecha">
+                    <div class="col-md-4">
+                        <label for="cuotas" class="form-label" style="color:white">Número de cuotas</label>
+                        <input type="text" class="form-control" id="pago_cuotas" value="" required>
+                    </div>
+
+
+                    <label class="style1" for="cuotas" style="color:white">Medio de pago</label>
+                    <select name="metododepago " id="pago ">
+    <option value="visa ">Visa</option>
+    <option value="mastercard ">Mastercard</option>
+    <option value="paypal ">Paypal</option>
+    <option value="baloto ">Pago en Baloto</option>
+
+</select>
+        </section>
+        <br>
+
+        </form>
+        <div class="btn-group " role="group " aria-label="Basic example ">
+            <button type="button " class="btn btn-primary ">Regresar</button>
+            <button type="button " class="btn btn-primary ">Guardar</button>
+            <button type="button " class="btn btn-primary ">Guardar y Continuar</button>
+        </div>
+
+
+</body>
+
+</html>
