@@ -37,7 +37,7 @@
         <div class="col-md-4 ">
             <label for="validationDefaultUsername " class="form-label " style="color:white">Correo</label>
             <div class="input-group ">
-                <span class="input-group-text " id="inputGroupPrepend2 " style="color:white">correo</span>
+                <span class="input-group-text " id="inputGroupPrepend2 " style="color:black">correo</span>
                 <input type="text " class="form-control " id="validationDefaultUsername " aria-describedby="inputGroupPrepend2 " required>
             </div>
         </div>
@@ -92,29 +92,34 @@
             <div class="col-md-4">
                 <label for="validationDefault01" class="form-label" style="color:white">Teléfono Celular</label>
                 <input type="text" class="form-control" id="validationDefault01" value="" required>
-            </div>
-            <form class="fecha">
-                <div class="datetime-local">
-                    <label for="validationDefault01" class="datetime-label" style="color:white">Fecha de nacimiento</label>
-                    <input type="datetime-local" class="" id="validationDefault01" value="" required>
-                </div>
-                <div class="input-group ">
+                <form class="fecha">
+                    <div class="datetime-local">
+                        <label for="validationDefault01" class="datetime-label" style="color:white">Fecha de nacimiento</label>
+                        <input type="datetime-local" class="" id="validationDefault01" value="" required>
+                        <section>
+                            <label for="inputPassword" class="col-sm-2 form-label" style="color:white">Contraseña</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword">
+                                <label for="inputPassword" class="form-label" style="color:white">Confirme su contraseña</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword">
 
-                    <span class="input-group-text ">Patologías/Información Importante</span>
-                    <textarea class="form-control " aria-label="With textarea "></textarea>
-                </div>
+                        </section>
+                        </div>
 
-                <div class="col-12 ">
-                    <div class="form-check ">
-                        <input class="form-check-input " type="checkbox " value=" " id="invalidCheck2 " required>
-                        <label class="form-check-label " for="invalidCheck2 " style="color:white">
+                        </div>
+
+                        <div class="col-12 ">
+                            <div class="form-check ">
+                                <input class="form-check-input " type="checkbox " value=" " id="invalidCheck2 " required>
+                                <label class="form-check-label " for="invalidCheck2 " style="color:white">
               Confirmo que estos datos son legítimos.
             </label>
-                    </div>
-                </div>
-                <div class="col-12 ">
-                    <button class="btn btn-primary " type="submit ">Guardar</button>
-                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 ">
+                            <button class="btn btn-primary " type="submit ">Guardar</button>
+                        </div>
 
 
 
