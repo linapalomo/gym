@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago en línea</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f41de9d141.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resources/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="fas fa-solid fa-credit-card fa-2x ">Datos de pago</h1><i class="fas fa-solid fa-credit-card fa-2x " style="color:white "></i>
+        <form action=" " method="post ">
+            <section>
+                <div class="col-md-3 ">
+                    <label for="titular_pago " class="form-label " style="color:white ">Nombre titular </label>
+                    <input type="text " class="form-control " id="titular_pago " required>
+                </div>
+                <form class="row g-3 ">
+                    <div class="col-md-4 ">
+                        <label for="direccion_pago " class="form-label " style="color:white ">Dirección</label>
+                        <input type="text " class="form-control " id="direccion_pago " value=" " required>
+                    </div>
+                    <form class="fecha ">
+                        <div class="col-md-4 ">
+                            <label for="cuotas " class="form-label " style="color:white ">Número de cuotas</label>
+                            <input type="text " class="form-control " id="pago_cuotas " value=" " required>
+                        </div>
+
+
+                        <label class="style1 " for="cuotas " style="color:white ">Medio de pago</label>
+                        <select name="metododepago " id="pago ">
+    <option value="visa ">Visa</option>
+    <option value="mastercard ">Mastercard</option>
+    <option value="paypal ">Paypal</option>
+    <option value="baloto ">Pago en Baloto</option>
+
+</select>
+            </section>
+            <br>
+    </div>
+    </form>
+    <div class="btn-group " role="group " aria-label="Basic example ">
+        <button type="button " class="btn btn-warning ">Regresar</button>
+        <button type="button " class="btn btn-warning ">Guardar</button>
+        <button type="button " class="btn btn-warning ">Guardar y Continuar</button>
+    </div>
+</body>
+
+</html>
