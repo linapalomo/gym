@@ -21,6 +21,11 @@ body {
     min-height: 100%;
 }
 
+.titulo home {
+    text-align: center;
+    text-decoration: double;
+}
+
 .nav ul {
     margin: 0;
 }
@@ -69,7 +74,12 @@ body {
     font-size: 4em;
     font-family: "Lato", sans-serif;
     font-weight: normal;
-    color: white;
+    color: rgb(4, 19, 16);
+}
+
+.deco {
+    text-decoration: overline;
+    text-transform: initial;
 }
 
 .center {
