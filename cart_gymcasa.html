@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Carrito Servicios</title>
+    <meta name="description" content="Menu para poder seleccionar servicios y escoger gimnasios">
+    <link rel="stylesheet" href="/resources/css/stylecarrito.css" />
+    <script src="/scripts/f_menuservicios.js" async></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f41de9d141.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page" style="color:white">Perfil Usuario</li>
+            <li class="breadcrumb-item active" aria-current="page" style="color:white">Registrar Servicios</li>
+        </ol>
+    </nav>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="home.html" style="color:white">HOME</a></li>
+                <li><a href="f_menuservicios.html" style="color:white">Servicios</a></li>
+
+            </ul>
+        </nav>
+        <img src="/resources/imagenes/logo.jpg" width="300px" class="gym-name center" alt="logo">
+    </header>
+
+
+    <section class="container content-section">
+        <h2 class="section-header" style="color:white"><strong style="color:white"><mark>Renta de equipos Gimnasio en Casa</mark></strong></h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title" style="color:white">Maquina multifuncional</span>
+                <img class="shop-item-image" src="/resources/imagenes/multifuncional.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price" style="color:white">$50</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Agregar al carrito</button>
+                </div>
+
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title" style="color:white">Maquina de Remo</span>
+                <img class="shop-item-image" src="/resources/imagenes/Maquina-de-remo.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price" style="color:white">$40</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Agregar al carrito</button>
+                </div>
+
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title" style="color:white">Maquina de Presión</span>
+                <img class="shop-item-image" src="/resources/imagenes/presion.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price" style="color:white">$50</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Agregar al carrito</button>
+                </div>
+
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title" style="color:white">Bicicleta de Spinning</span>
+                <img class="shop-item-image" src="/resources/imagenes/spinningbike.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price" style="color:white"><mark>$3.99</mark></span>
+                    <button class="btn btn-primary shop-item-button" type="button">Agregar al carrito</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title" style="color:white">Bicicleta eliptica</span>
+                <img class="shop-item-image" src="/resources/imagenes/eliptica.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price" style="color:white">$45</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Agregar al carrito</button>
+                </div>
+
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title" style="color:white">Maquina caminadora</span>
+                <img class="shop-item-image" src="/resources/imagenes/caminadora.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price" style="color:white">$45</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Agregar al carrito</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header" style="color:white">Carrito</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column" style="color:white">ITEM</span>
+            <span class="cart-price cart-header cart-column" style="color:white">Precio</span>
+            <span class="cart-quantity cart-header cart-column" style="color:white">Número de Semanas</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title" style="color:white"><mark>Total</mark></strong>
+            <span class="cart-total-price" style="color:white">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">Comprar</button>
+    </section>
+
+</body>
+
+</html>
