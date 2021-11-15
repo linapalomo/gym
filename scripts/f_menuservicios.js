@@ -102,5 +102,7 @@ function updateCartTotal() {
         total = total + (price * quantity)
     }
     total = Math.round(total * 100) / 100
-    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
+    totalglobal = document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
+    var totalpago = totalglobal;
+    sessionStorage.setItem("totalpago", totalpago);
 }
